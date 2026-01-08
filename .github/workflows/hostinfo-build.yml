@@ -39,5 +39,5 @@ jobs:
       - name: Analyze Test Quality
         uses: Aetherr-Agency/DeepDive@v1
         with:
-          openai_api_key: ${{ secrets.SSAHeathKey }}
+          openai_api_key: ${{ secrets.SSAHEATHKEY002 }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
